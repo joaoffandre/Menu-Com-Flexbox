@@ -33,10 +33,32 @@
         margin-block:3rem;
     }
     .menu{
-        margin-block:5rem;
+        margin-top:5rem;
     }
 
     .menu .secao{
         padding: 1rem 2rem;
+    }
+
+    .menu .secao.cadastro{
+        padding:8px 11px;
+    }
+}
+
+@media(max-height:615px) and (max-width:767px){
+    .menu{
+        margin-top:3rem;
+    }
+
+    .menu .secao:not(.cadastro) a{
+        font-size:3rem;
+    }
+
+    .menu .secao{
+        padding: 0.5rem 1rem;
+    }
+
+    .menu .secao.cadastro{
+        padding:4px 6px;
     }
 }
