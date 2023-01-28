@@ -44,6 +44,10 @@ body{
     background-color: var(--cor-de-fundo);
 }
 
+.menu .secao:hover a{
+    color:white;
+}
+
 .menu .cadastro{
     border-radius:10px;
     background-color: var(--cor-de-fundo);
@@ -51,3 +55,8 @@ body{
     padding-block:11px;
     font-weight: var(--peso-cadastre-se);
 }
+
+.menu .cadastro a{
+    color:white;
+}
+
