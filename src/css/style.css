@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    width:100vw;
+}
+
+.cabecalho{
+    font-family: var(--fonte-familia);
+    display:flex;
+    justify-content: space-between;
+    margin:45px;
+    flex-wrap:wrap;
+}
+
+.caixa-logo{
+    display:flex;
+}
+
+.caixa-logo::before{
+    content:url(../images/logo.png);
+}
+
+.logo{
+    font-weight: var(--peso-logo);
+    font-size:20px;
+    line-height: 46px;
+    margin-left:5px;
+}
+
+.menu{
+    display:flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu .secao{
+    margin-inline:9px;
+    padding-inline:6px;
+    padding-block:11px;
+    font-weight: var(--peso-secao);
+    font-size:15px;
+}
+
+.menu .secao:hover{
+    background-color: var(--cor-de-fundo);
+}
+
+.menu .cadastro{
+    border-radius:10px;
+    background-color: var(--cor-de-fundo);
+    padding-inline:21px;
+    padding-block:11px;
+    font-weight: var(--peso-cadastre-se);
+}
