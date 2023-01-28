@@ -13,6 +13,7 @@ body{
 
 .caixa-logo{
     display:flex;
+    align-items: center;
 }
 
 .caixa-logo::before{
@@ -22,7 +23,6 @@ body{
 .logo{
     font-weight: var(--peso-logo);
     font-size:20px;
-    line-height: 46px;
     margin-left:5px;
 }
 
