@@ -27,3 +27,16 @@
         margin-block:25px;
     }
 }
+
+@media(max-height:745px) and (max-width:767px){
+    .cabecalho{
+        margin-block:3rem;
+    }
+    .menu{
+        margin-block:5rem;
+    }
+
+    .menu .secao{
+        padding: 1rem 2rem;
+    }
+}
